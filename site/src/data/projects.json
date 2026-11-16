@@ -1,0 +1,515 @@
+[
+	{
+		"slug": "agent-support-client",
+		"title": "Agent support client",
+		"category": "Agents IA",
+		"year": 2025,
+		"details": [
+			{
+				"label": "Client",
+				"value": "PME e-commerce"
+			},
+			{
+				"label": "Rôle",
+				"value": "Architecture et développement"
+			},
+			{
+				"label": "Stack",
+				"value": "LLM, n8n, API helpdesk"
+			},
+			{
+				"label": "Durée",
+				"value": "5 semaines"
+			}
+		],
+		"summary": "Un agent qui trie, répond et transmet les demandes clients, jour et nuit.",
+		"description": [
+			"Le service client recevait plusieurs centaines de messages par semaine, dont une grande partie portait sur le suivi de commande et les retours. L'agent lit chaque demande, consulte la commande concernée et répond seul quand la réponse est sûre.",
+			"Les cas délicats sont transmis à un conseiller avec un résumé et une proposition de réponse. Chaque réponse est tracée, et un tableau de suivi montre le taux de résolution et les sujets qui reviennent."
+		],
+		"cover": {
+			"src": "/projects/assets/9873ea86d729e7072e7a305b0a2c21ce.jpg",
+			"alt": "Conseiller au casque devant son poste",
+			"width": 2000,
+			"height": 3000
+		},
+		"gallery": [
+			{
+				"src": "/projects/assets/69b9290214824da299b5d39afe3dd809.jpg",
+				"alt": "Casque posé près d’un ordinateur portable",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/88609e4efef5316c8e2f817cb7f8da72.jpg",
+				"alt": "Conseillère souriante au casque",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/5466c4b2eafce8617d0b29bcd4ffaff3.jpg",
+				"alt": "Conseiller en chemise blanche",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/569ed9ccdc09c731c24a4acb09ae619d.jpg",
+				"alt": "Casque audio sur une table",
+				"type": "image"
+			}
+		]
+	},
+	{
+		"slug": "assistant-documentaire",
+		"title": "Assistant documentaire",
+		"category": "Assistants RAG",
+		"year": 2025,
+		"details": [
+			{
+				"label": "Client",
+				"value": "Cabinet de conseil"
+			},
+			{
+				"label": "Rôle",
+				"value": "Architecture RAG"
+			},
+			{
+				"label": "Stack",
+				"value": "Base vectorielle, LLM, Python"
+			},
+			{
+				"label": "Durée",
+				"value": "6 semaines"
+			}
+		],
+		"summary": "Un assistant qui répond à partir des procédures internes, source à l’appui.",
+		"description": [
+			"Des milliers de pages de procédures, de modèles et de comptes rendus dormaient dans des dossiers partagés. L'assistant les indexe et répond aux questions des collaborateurs en citant le document et le passage utilisés.",
+			"Les droits d'accès d'origine sont respectés : chacun ne voit que ce qu'il a le droit de lire. Un jeu de questions de référence mesure la qualité des réponses à chaque mise à jour."
+		],
+		"cover": {
+			"src": "/projects/assets/8fee3127af9d4759e113cc6395d46c34.jpg",
+			"alt": "Classeurs colorés sur une étagère",
+			"width": 2000,
+			"height": 1123
+		},
+		"gallery": [
+			{
+				"src": "/projects/assets/a4ff2d2de23f82f19d673ebeb553f29b.jpg",
+				"alt": "Piles de documents et de dossiers",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/4e2571d540d4fe314eb96159ec3e1944.jpg",
+				"alt": "Classeur ouvert",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/76376a05463d4e9bc2491d587d887e87.jpg",
+				"alt": "Chemises de couleurs",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/96360122e6c55d0907b334f34c9084c3.jpg",
+				"alt": "Étagères de dossiers",
+				"type": "image"
+			}
+		]
+	},
+	{
+		"slug": "factures-automatiques",
+		"title": "Factures automatiques",
+		"category": "Automatisation",
+		"year": 2025,
+		"details": [
+			{
+				"label": "Client",
+				"value": "Cabinet comptable"
+			},
+			{
+				"label": "Rôle",
+				"value": "Conception du workflow"
+			},
+			{
+				"label": "Stack",
+				"value": "n8n, OCR, LLM"
+			},
+			{
+				"label": "Durée",
+				"value": "4 semaines"
+			}
+		],
+		"summary": "Les factures sont lues, contrôlées et classées sans saisie manuelle.",
+		"description": [
+			"Chaque facture reçue par e-mail est lue automatiquement : fournisseur, montants, TVA, échéance. Les données sont contrôlées puis envoyées dans l'outil comptable, et le document est rangé au bon endroit.",
+			"En cas de doute, la facture part dans une file de validation avec les champs à vérifier surlignés. Le cabinet garde la main sur les cas ambigus et ne ressaisit plus les autres."
+		],
+		"cover": {
+			"src": "/projects/assets/e3a346936c37ecc1cb2905e2df0c3b82.jpg",
+			"alt": "Reçu posé sur une table en bois",
+			"width": 2000,
+			"height": 2999
+		},
+		"gallery": [
+			{
+				"src": "/projects/assets/37816afec6630e18248fb3d6a23300be.jpg",
+				"alt": "Documents comptables et stylo",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/8201d29c17079fae44a703428f289517.jpg",
+				"alt": "Papiers et stylo sur une table",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/809e1f079b6aec9b913a55c0178ef2c4.jpg",
+				"alt": "Papiers sur un bureau en bois",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/b26db129e170fc771d6a99502e63906a.jpg",
+				"alt": "Formulaires et calculatrice",
+				"type": "image"
+			}
+		]
+	},
+	{
+		"slug": "prevision-des-ventes",
+		"title": "Prévision des ventes",
+		"category": "Data & ML",
+		"year": 2024,
+		"details": [
+			{
+				"label": "Client",
+				"value": "Réseau de magasins"
+			},
+			{
+				"label": "Rôle",
+				"value": "Modélisation"
+			},
+			{
+				"label": "Stack",
+				"value": "Python, scikit-learn, Streamlit"
+			},
+			{
+				"label": "Durée",
+				"value": "6 semaines"
+			}
+		],
+		"summary": "Un modèle qui prévoit les ventes par magasin, semaine après semaine.",
+		"description": [
+			"À partir de l'historique de ventes, du calendrier et des promotions, le modèle estime les ventes de chaque magasin pour les semaines à venir. Les responsables consultent les prévisions dans un tableau de bord simple.",
+			"Le projet couvre toute la chaîne : nettoyage des données, comparaison de plusieurs modèles, suivi de l'erreur dans le temps et réentraînement programmé."
+		],
+		"cover": {
+			"src": "/projects/assets/d1e92a398bd6b65c47453d3fbbbd2d44.jpg",
+			"alt": "Rayon de supermarché",
+			"width": 2000,
+			"height": 1500
+		},
+		"gallery": [
+			{
+				"src": "/projects/assets/b468a19a5370a623c30d4363fd08bcb7.jpg",
+				"alt": "Intérieur d’un magasin de vêtements",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/3a152cd257858d1e5eea53544289a91e.jpg",
+				"alt": "Paiement par carte en caisse",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/d14e9f793486823a26219f087a43372a.jpg",
+				"alt": "Tableau de bord sur un écran",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/01fdc003837e4d94efe57407f4a193b2.jpg",
+				"alt": "Magasin aux rayons éclairés",
+				"type": "image"
+			}
+		]
+	},
+	{
+		"slug": "agent-de-prospection",
+		"title": "Agent de prospection",
+		"category": "Agents IA",
+		"year": 2025,
+		"details": [
+			{
+				"label": "Client",
+				"value": "Éditeur de logiciel"
+			},
+			{
+				"label": "Rôle",
+				"value": "Architecture et développement"
+			},
+			{
+				"label": "Stack",
+				"value": "LLM, API CRM, n8n"
+			},
+			{
+				"label": "Durée",
+				"value": "4 semaines"
+			}
+		],
+		"summary": "Un agent qui qualifie les prospects et prépare les messages des commerciaux.",
+		"description": [
+			"L'agent enrichit chaque nouveau contact, vérifie qu'il correspond à la cible et rédige un premier message personnalisé à partir d'informations publiques. Le commercial relit, ajuste et envoie.",
+			"Tout est consigné dans le CRM, avec la raison de chaque qualification. L'équipe passe moins de temps à chercher et plus de temps à échanger avec les bons interlocuteurs."
+		],
+		"cover": {
+			"src": "/projects/assets/eb68da66586fbd8337656141467b6289.jpg",
+			"alt": "Trois personnes autour d’un ordinateur",
+			"width": 2000,
+			"height": 3000
+		},
+		"gallery": [
+			{
+				"src": "/projects/assets/eafd2b46e193c91d5a67ae89bffd9c3c.jpg",
+				"alt": "Équipe au travail autour d’une table",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/d1e2ef296f1d69f1dc238a367735a731.jpg",
+				"alt": "Deux collègues devant un ordinateur",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/6d4332415edb6659b715dfec36631811.jpg",
+				"alt": "Ordinateur, tasse et téléphone",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/4a690b9b3684827eba6a56e712914f22.jpg",
+				"alt": "Poignée de main",
+				"type": "image"
+			}
+		]
+	},
+	{
+		"slug": "assistant-contrats",
+		"title": "Assistant contrats",
+		"category": "Assistants RAG",
+		"year": 2025,
+		"details": [
+			{
+				"label": "Client",
+				"value": "Direction juridique"
+			},
+			{
+				"label": "Rôle",
+				"value": "Architecture RAG"
+			},
+			{
+				"label": "Stack",
+				"value": "Base vectorielle, LLM, Python"
+			},
+			{
+				"label": "Durée",
+				"value": "7 semaines"
+			}
+		],
+		"summary": "Retrouver une clause et comparer des contrats en quelques secondes.",
+		"description": [
+			"L'assistant indexe les contrats de l'entreprise et répond à des questions précises : durée, préavis, pénalités, clauses inhabituelles. Chaque réponse renvoie à la page du contrat concerné.",
+			"Il sait aussi comparer un nouveau contrat au modèle maison et lister les écarts. Les juristes gardent la décision ; l'outil leur évite la recherche et la relecture ligne à ligne."
+		],
+		"cover": {
+			"src": "/projects/assets/f144d087338e85a1fe08a927bae65045.jpg",
+			"alt": "Signature d’un document",
+			"width": 2000,
+			"height": 1335
+		},
+		"gallery": [
+			{
+				"src": "/projects/assets/65284a41dcf3bd9c6e6837e26a9049fc.jpg",
+				"alt": "Homme signant un document",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/f6323fdaf43d1507fa4e90fe7ea1728b.jpg",
+				"alt": "Main écrivant sur une feuille",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/bb6a4e516366e723fdb4be6d6692d6fa.jpg",
+				"alt": "Signature à deux",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/642b4fa21747c3bee679354f94b2fe44.jpg",
+				"alt": "Relecture de documents autour d’une table",
+				"type": "image"
+			}
+		]
+	},
+	{
+		"slug": "veille-concurrentielle",
+		"title": "Veille concurrentielle",
+		"category": "Automatisation",
+		"year": 2025,
+		"details": [
+			{
+				"label": "Client",
+				"value": "Agence marketing"
+			},
+			{
+				"label": "Rôle",
+				"value": "Conception du workflow"
+			},
+			{
+				"label": "Stack",
+				"value": "n8n, LLM, flux RSS"
+			},
+			{
+				"label": "Durée",
+				"value": "3 semaines"
+			}
+		],
+		"summary": "Une synthèse de la concurrence envoyée chaque lundi matin.",
+		"description": [
+			"Le workflow surveille les sites, les actualités et les publications d'une liste de concurrents. Il écarte le bruit, regroupe les informations par sujet et rédige une synthèse courte avec les liens d'origine.",
+			"L'équipe reçoit le tout par e-mail chaque lundi et peut ajouter un concurrent ou un mot-clé depuis un simple tableur."
+		],
+		"cover": {
+			"src": "/projects/assets/737299cb8b327f44c206f1c11d734eca.jpg",
+			"alt": "Liasse de journaux sur une table",
+			"width": 2000,
+			"height": 2667
+		},
+		"gallery": [
+			{
+				"src": "/projects/assets/917dc3d3fe567e52ba176263473d35ee.jpg",
+				"alt": "Pile de journaux",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/b4ba30b80786302d7c8788f83d5052c0.jpg",
+				"alt": "Homme lisant un journal sur un banc",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/5e595863a107118f9e599b3c914e385c.jpg",
+				"alt": "Lecture du journal au café",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/17542e5e816105672b90e35905296b34.jpg",
+				"alt": "Page de journal en gros plan",
+				"type": "image"
+			}
+		]
+	},
+	{
+		"slug": "optimisation-des-stocks",
+		"title": "Optimisation des stocks",
+		"category": "Data & ML",
+		"year": 2024,
+		"details": [
+			{
+				"label": "Client",
+				"value": "Distributeur"
+			},
+			{
+				"label": "Rôle",
+				"value": "Analyse et modélisation"
+			},
+			{
+				"label": "Stack",
+				"value": "Python, pandas, tableau de bord"
+			},
+			{
+				"label": "Durée",
+				"value": "5 semaines"
+			}
+		],
+		"summary": "Moins de ruptures et moins de surstock grâce aux données de vente.",
+		"description": [
+			"L'analyse croise les ventes, les délais fournisseurs et la saisonnalité pour recommander un niveau de stock par référence. Les alertes signalent les ruptures probables avant qu'elles n'arrivent.",
+			"Les recommandations sont présentées dans un tableau de bord lisible par les acheteurs, avec l'explication de chaque seuil proposé."
+		],
+		"cover": {
+			"src": "/projects/assets/ca6890e5aff177b104905ffb6ebe182a.jpg",
+			"alt": "Allée d’entrepôt",
+			"width": 2000,
+			"height": 2667
+		},
+		"gallery": [
+			{
+				"src": "/projects/assets/979172a135d7820b245fa3af32dd6f49.jpg",
+				"alt": "Cartons sur des rayonnages",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/4061fe2589a8a9365a7a20919ce409b3.jpg",
+				"alt": "Bacs de stockage",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/cbdee2cbf9857342349f45e0a7a26f9d.jpg",
+				"alt": "Entrepôt rempli de cartons",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/ce733d88cafba5aff018e7f76ba7419a.jpg",
+				"alt": "Palettes et cartons",
+				"type": "image"
+			}
+		]
+	},
+	{
+		"slug": "onboarding-rh",
+		"title": "Onboarding RH",
+		"category": "Automatisation",
+		"year": 2024,
+		"details": [
+			{
+				"label": "Client",
+				"value": "Entreprise de services"
+			},
+			{
+				"label": "Rôle",
+				"value": "Conception du workflow"
+			},
+			{
+				"label": "Stack",
+				"value": "n8n, messagerie, LLM"
+			},
+			{
+				"label": "Durée",
+				"value": "3 semaines"
+			}
+		],
+		"summary": "L’arrivée d’un nouveau collaborateur, préparée sans rien oublier.",
+		"description": [
+			"Dès qu'un contrat est signé, le workflow crée les comptes, commande le matériel, planifie les rendez-vous de la première semaine et prévient le manager. Le nouveau collaborateur reçoit un message d'accueil avec son programme.",
+			"Un assistant répond ensuite à ses questions pratiques à partir du livret d'accueil. Les RH suivent l'avancement de chaque arrivée sur une seule page."
+		],
+		"cover": {
+			"src": "/projects/assets/8883f09f5987dabaf2d0b35d0c444c44.jpg",
+			"alt": "Deux femmes en entretien",
+			"width": 2000,
+			"height": 1333
+		},
+		"gallery": [
+			{
+				"src": "/projects/assets/3a210b3403441fa0678e6bf26ff6124f.jpg",
+				"alt": "Poignée de main en entretien",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/3f023e383684ab4bddc5d858d3b85f14.jpg",
+				"alt": "Entretien en face à face",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/399c34b9b0abebe4c7ede22f96471566.jpg",
+				"alt": "Deux collègues en discussion",
+				"type": "image"
+			},
+			{
+				"src": "/projects/assets/7d6f11a2929c326262daa0378af99858.jpg",
+				"alt": "Personne en costume près d’un escalier",
+				"type": "image"
+			}
+		]
+	}
+]
