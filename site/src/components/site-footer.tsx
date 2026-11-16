@@ -85,7 +85,7 @@ export default function SiteFooter() {
 
 			<div className="mx-auto flex max-w-[1400px] flex-col gap-2 border-t border-line px-5 py-6 text-[10px] uppercase tracking-[0.2em] text-stone sm:flex-row sm:justify-between md:px-10">
 				<span>
-					© {new Date().getFullYear()} {SITE.name} · <a href="#" className="hover:text-paper">Mentions légales</a>
+					© {new Date().getFullYear()} {SITE.name} · <a href="mentions-legales.html" className="hover:text-paper">Mentions légales</a>
 				</span>
 				<span className="tabular-nums">01001100 01010101 01001101 01000101 01001110</span>
 			</div>
